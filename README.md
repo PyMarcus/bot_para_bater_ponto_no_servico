@@ -44,7 +44,6 @@ Feito isso, criar executável com:
     Colar ATALHO do executável na pasta de inicialização do sistema:
     C:\Users\{SeuNomeDeUsuario}}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
     
-    ![img.png](img.png)
 
 
     
