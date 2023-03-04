@@ -6,7 +6,7 @@ from bot import Bot
 class SchedulerBot:
 
     def __scheduler_this(self) -> None:
-        for times in ["09:00", "12:00", "13:15", "18:00"]:
+        for times in ["09:00", "12:00", "13:15", "18:00"]:  # horários fakes
             print(times)
             schedule.every().monday.at(times).do(self.__instance_from_bot_as_job)
             schedule.every().tuesday.at(times).do(self.__instance_from_bot_as_job)
